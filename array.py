@@ -9,7 +9,7 @@ def array():
 
     x = int(input("please enter the number of postive numbers you want to input: ")) #this is to input the ammount of number in an array or numbers 
 
-    for i in range(0, x): #genrates x ammount of numbers 
+    for i in range(0, x): #genrates x ammount of numbers to work with.
         n = random.randint(1,99)
         if n not in randomlist:
          randomlist.append(n)
